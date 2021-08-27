@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
