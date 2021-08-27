@@ -1,0 +1,5 @@
+services:
+  - docker
+after_success:
+chmod 777 /home/requriements.yml
+echo "done" > /home/done.txt  
