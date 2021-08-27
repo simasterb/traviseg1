@@ -1,4 +1,4 @@
-language: generic
+language: ruby
 services:
   - docker
 after_success:
